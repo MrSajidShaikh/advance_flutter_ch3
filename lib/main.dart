@@ -81,8 +81,7 @@ class _HomePageState extends State<HomePage> {
                         Uri.parse("https://www.google.com/search?q=$value");
                   }
                   webViewController?.loadUrl(
-                    urlRequest: URLRequest(
-                        url: WebUri.uri(newUrl)),
+                    urlRequest: URLRequest(url: WebUri.uri(newUrl)),
                   );
                 },
               ),
